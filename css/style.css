@@ -1,0 +1,1013 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+ :root{
+    --white: #fff;
+    --light-blue: #00e0d0;
+    --grey: #413d4b;
+    
+}
+
+*{   
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none; outline: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heading{
+    font-size: 22px;
+    color: var(--grey);
+}
+
+.btn{
+    display: inline-block;
+    color: var(--white);
+    font-size: 16px;
+    border: 1px solid var(--white);
+    padding: 14px;
+    background: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.btn:hover{
+    color: #00e0d0;
+    border-color: #00e0d0;
+    box-shadow: 0 0 5px var(--light-blue);
+}
+
+.line{
+    background-color: var(--light-blue);
+    width: 50px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.line:hover{
+    border-color: #00dfef;
+    cursor: pointer;
+}
+
+
+/* ................header............... */
+
+
+
+header{
+    background: url(../img/overlay.jpg) center no-repeat;
+    background-size: cover;
+}
+
+header .container .inner{
+    padding: 35px;
+}
+
+header .container .inner .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .inner .user{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+
+header .container .inner .user p{
+    font-size: 30px;
+    color: #18828d;;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+
+header .container .inner .navbar a{
+    margin-left: 27px;
+    font-size: 13px;
+    font-weight: 900;
+    color: var(--white);
+}
+
+header .container .inner .navbar a:hover{
+    text-decoration: underline;
+    color: var(--light-blue);
+}
+
+header .container .inner .content{
+    padding: 0 18%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .container .inner .content h1{
+    margin-top: 184px;
+    font-size: 32px;
+    color: var(--white);
+    font-weight: 900; 
+}
+
+header .container .inner .content .line{
+    margin-top: 27px;
+
+}
+
+header .container .inner .content p{
+    line-height: 26px;
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 300;
+    margin-bottom: 53px;
+    margin-top: 30px;
+}
+
+header .container .inner .content .btn{
+    margin-bottom: 127px;
+}
+
+header .container .inner .content .icons a{
+    color: var(--white);
+    margin-right: 5px;
+}
+header .container .inner .content .icons a:hover{
+    color: var(--light-blue);
+    cursor: pointer;
+} 
+
+/* 
+header{
+    position: fixed;
+    top: 0; left: 0; width: 100%;
+    z-index: 1000;
+    padding: 15px;
+}
+
+header .container .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo{
+    display: flex;
+    align-items: center;
+}
+
+header .container .logo img{
+    margin-right: 11px;
+}
+
+header .container .inner .logo p{
+    font-size: 30px;
+    color: #18828d;;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+header .container .inner .navbar a{
+    margin-left: 27px;
+    font-size: 13px;
+    font-weight: 900;
+    color: var(--light-blue);
+}
+
+header .container .inner .navbar a:hover{
+    text-decoration: underline;
+} */
+
+/*  .........home............ */
+/* 
+.home{
+    background: url(../img/overlay.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0; left: 0; width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.home .container .inner .content{
+   padding: 10% 0;
+   margin: 0 auto;
+   width: 779px;
+   
+  
+}
+
+.home .container .inner .content h1{
+    margin-top: 184px;
+    font-size: 32px;
+    color: var(--white);
+    font-weight: 900; 
+}
+
+.home .container .inner .content .line{
+    margin-top: 27px;
+
+}
+
+.home .container .inner .content p{
+    line-height: 26px;
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 300;
+    margin-bottom: 53px;
+    margin-top: 30px;
+}
+
+.home .container .inner .content .btn{
+    margin-bottom: 127px;
+}
+
+.home .container .inner .content .icons a{
+    color: var(--white);
+    margin-right: 5px;
+}
+.home .container .inner .content .icons a:hover{
+    color: var(--light-blue);
+    cursor: pointer;
+}  */
+
+
+/* .............story............... */
+
+.story .container .inner{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+.story .container .inner img{
+    width: 233px;
+    height: 232px;
+   /* width: 20%; */
+}
+
+.story .container .inner .content{
+    width: 540px;
+    /* width: 38%; */
+}
+
+.story .container .inner .content .heading{
+    margin-bottom: 27px;
+}
+
+.story .container .inner .content .text{
+    margin-bottom: 30px;
+}
+
+.story .container .inner .content p{
+    line-height:23px ;
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 31px;
+}
+
+.story .container .inner .content .btn{
+    color: var(--grey);
+    border-color: var(--grey);
+}
+
+.story .container .inner .content .btn:hover{
+    color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+/* ...............videoStory................... */
+
+.videoStory{
+    height: 100vh;
+    position: relative;
+    
+}
+
+.videoStory video{
+    position: absolute;
+    top: 0; left: 0; width: 100%;
+    z-index: -1;
+    height: 100%; 
+    object-fit: cover;
+} 
+
+.videoStory .container .inner .content{
+    text-align: center; 
+    padding: 25%;
+
+}
+
+.videoStory .container .inner .content a{
+    margin-bottom: 34px;
+    cursor: pointer; 
+}
+
+.videoStory .container .inner .content p{
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 900;
+}
+
+/* ................expertise............... */
+
+#expertise .container{
+    margin-bottom: 68px;
+}
+
+#expertise .container .heading{
+    margin-bottom: 17px;
+    text-align: center;
+    margin-top: 71px;
+}
+
+#expertise .container p{
+    color: #2f2d35;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+#expertise .container .line{
+    margin-bottom: 48px;
+    height: 2px;
+    background-color: #c6c4c9;
+
+}
+
+#expertise .container .inner #top{
+    border-bottom: 1px solid #ebebeb;
+}
+
+#expertise .container .inner .wrapper #middle{
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+}
+
+#expertise .container .inner .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#expertise .container .inner .wrapper .box{
+    width: 33%;
+    text-align: center;
+    padding: 37px 32px;
+}
+
+#expertise .container .inner .wrapper .box img{
+    margin-bottom: 35px;
+}
+
+#expertise .container .inner  .wrapper .box h3{
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 900;
+    color: var(--grey);
+}
+
+#expertise .container .inner .wrapper .box p{
+    line-height: 23px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 10px;  
+}
+
+
+
+/* ..................team.................... */
+
+#team{
+    background: url(../img/overlay2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#team .container .heading{
+    padding-top: 71px;
+    padding-bottom: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+#team .container p{
+    text-align: center;
+    font-size: 14px;
+    color: #f9f9f9;
+    margin-bottom: 47px;
+}
+
+
+#team .container .inner{
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    /* flex-wrap: wrap; */
+    margin-top: 47px;
+    margin-bottom: 70px;
+    
+}
+
+#team .container .inner .box{
+    width: 24.5%;
+    border: 1px solid var(--grey);
+    
+}
+
+#team .container .inner .box img{
+    /* width: 280px;
+    height: 229px; */
+    width: 100%;
+   
+}
+
+ #team .container .inner .box .content{
+    padding: 23px  58px;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ #team .container .inner .box .content h4{
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 900;
+    margin-bottom: 11px;
+ }
+
+ #team .container .inner .box .content p{
+    font-size: 13px;
+    color: #fafafa;
+    font-weight: 300;
+ }
+
+  #team .container .link{
+    text-align: center;
+ }
+
+ #team .container .link p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #f3f3f3;
+    margin-bottom: 29px;
+ }
+
+ #team .container .link button{
+    margin-bottom: 69px;
+ }
+
+ /* ............work................. */
+
+
+ .work .container .inner .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+ }
+
+ .work .container .inner .navbar a{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--grey);
+
+ }
+
+ .work .container .inner .navbar a:hover{
+    text-decoration: underline;
+    color: var(--light-blue);
+
+ }
+
+  .work .image{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+ }
+
+  .work .image  img{
+    width: 16.6%;
+    margin-bottom: 2px;
+ }
+
+ .work .link{
+    text-align: center;
+ }
+
+.work .link .btn{
+    color: var(--grey);
+    border-color: var(--grey);
+    padding: 14px 27px;
+    margin: 70px 0;
+ }
+
+ .work .link .btn:hover{
+    color: var(--light-blue);
+    border-color: var(--light-blue);
+    cursor: pointer;
+ }
+
+
+ 
+
+ /* .................review............... */
+
+ .review {
+    background: url(../img/overlayforest.jpg) center no-repeat;
+    background-size: cover;
+ }
+
+ .review .container .inner{
+    padding: 69px 230px;
+   
+ }
+
+ .review .container .inner .content{
+    text-align: center;
+    
+ }
+
+ .review .container .inner .content i{
+    color: var(--white);
+    font-size: 30px;
+    margin-bottom: 42px;
+ }
+
+ .review .container .inner .content p{
+    font-size: 16px;
+    color: var(--white);
+    line-height: 26px;
+    margin-bottom: 53px;
+    /* width: 775px; */
+   
+ }
+
+ .review .container .inner .content h4{
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 900;
+    margin-bottom: 13px;
+ }
+
+ .review .container .inner .content h5{
+    color: var(--white);
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 45px;
+ }
+
+ .review .container .inner .content .image img{
+    margin-right: 14px;
+   }
+
+  /* ..................input.................... */
+
+
+  .input .container .inner{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0;
+    gap: 105px;
+   }
+
+   .input .container .inner .inputBox,
+   .input .container .inner .client{
+    width: 48%;
+   }
+
+   .input .container .inner .inputBox form .heading{
+    margin-bottom: 34px;
+   }
+
+   .input .container .inner .inputBox form input[type=text],
+   .input .container .inner .inputBox form input[type=email]{
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    padding: 16px 14px;
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 23px;
+    text-transform: none;
+    }
+
+    .input .container .inner .inputBox form input:focus{
+    border-color: var(--light-blue);
+    }
+
+    .input .container .inner .inputBox form textarea{
+        border: 1px solid #e5e5e5;
+        resize: none;
+        padding: 21px 15px;
+        width: 100%;
+        height: 200px;
+        
+    }
+
+    .input .container .inner .inputBox form textarea:focus{
+        border-color: var(--light-blue);
+    }
+
+    .input .container .inner .inputBox form .btn{
+         border: 1px solid #e5e5e5;
+         margin-top: 22px;
+         padding: 14px 32px;
+         font-size: 16px;
+         color: var(--grey);
+        
+    } 
+
+    .input .container .inner .client .heading{
+        margin-bottom: 34px;
+    }
+
+    .input .container .inner .client  .image img{
+        width: 30%;
+        margin-right: 80px;
+        margin-bottom: 30px;
+    }
+
+    /* ...............footer.............. */
+
+    footer{
+        background: url(../img/overlay3.jpg) center no-repeat;
+        background-size: cover;
+    }
+
+    footer .container .inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 70px 0;
+
+    }
+   
+    footer .container .inner .content,
+    footer .container .inner .info,
+    footer .container .inner .navbar{
+        width: 33%;
+    }
+
+
+    footer .container .inner .user{
+        display: flex;
+        margin-bottom: 27px;
+    }
+
+    footer .container .inner .content .user p{
+        font-size: 30px;
+        color: #18828d;;
+        font-weight: 100;
+        text-transform: lowercase;  
+    }
+
+     footer .container .inner .content p{
+        line-height: 27px;
+        color: var(--white);
+        font-size: 14px;
+        font-weight: 300;
+        width: 285px;
+
+     }
+
+     footer .container .inner .info h3{
+        margin-bottom: 39px;
+        font-size: 15px;
+        color: var(--white);
+        font-weight: 900;
+     }
+
+    footer .container .inner .info .text{
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+     footer .container .inner .info .text img{
+        margin-right: 16px;
+     }
+
+     footer .container .inner .info .text address{
+        font-size: 14px;
+        color: var(--white);
+        font-weight: 300;
+        line-height: 27px;
+        width: 237px;
+        margin-bottom: 24px;
+
+     }
+
+     footer .container .inner .info .contact img{
+        margin-right: 13px;
+     }
+
+     footer .container .inner .info .contact span{
+        font-size: 14px;
+        font-weight: 300;
+        color: var(--white);
+     }
+
+     footer .container .inner .navbar h4{
+        font-size: 15px;
+        color: var(--white);
+        font-weight: 900;
+        margin-bottom: 39px;
+     }
+
+     footer .container .inner .navbar .touch{
+        display: flex;
+        align-items: center;
+        margin-bottom: 27px;
+     } 
+
+     footer .container .inner .navbar .touch .subscribe{
+        border: 1px solid #9d96af;
+        padding: 16px;
+        font-size: 14px;
+        color: var(--white);
+        font-weight: 300;
+        margin-right: 10px;
+        
+     }
+
+     footer .container .inner .navbar .touch .image{
+       background-color: #9f98b2;
+       width: 70px;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+     }
+
+     footer .container .link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 70px;
+        padding-bottom: 70px;
+        
+     }
+
+     footer .container .link .nav a{
+        font-size: 14px;
+        color: var(--white);
+        margin-right: 36px;
+        
+    }
+
+     footer .container .link .info p{
+        font-size: 14px;
+        color: var(--white);
+        padding-right: 90px;
+     }
+
+    /* ..........media.............. */
+
+    @media(max-width: 1200px){
+        .container{
+            padding: 0 5%;
+        }
+
+         .review .container .inner{
+          padding: 69px 150px;
+   
+        }
+     }
+
+     @media(max-width: 1100px){
+
+        #team .container .inner .box .content{
+            padding: 23px  40px;
+        }
+        .work .image img{
+            width: 24.5%;
+            margin-bottom: 5px;
+        }
+
+        .input .container .inner .client .image img{
+            width: 28%;
+            margin-bottom: 45px;
+
+        }
+
+        .review .container .inner .content p{
+            font-size: 13px;
+    
+        }
+     }
+
+     @media(max-width: 979px){
+
+        
+         header .container .inner .box .user{
+            display: none;
+        }
+
+         header .container .inner .box .navbar{
+            margin: 0 auto;
+        }
+
+        .videoStory .container .inner .content{
+            padding: 35%;
+        
+        }
+
+         #team .container .inner{
+            flex-wrap: wrap;
+         } 
+
+         #team .container .inner .box{
+            width: 30%;
+           
+         }
+
+         #team .container .inner .box img{
+            width: 100%;
+         }
+
+         #team .container .inner .box .content p{
+              font-size: 11px;
+         } 
+
+         .work .image img{
+            width: 49.5%;
+            margin-bottom: 7px;
+         }
+
+         .input .container .inner .client .image img{
+            width: 24%;
+            margin-bottom: 55px;
+            
+         } 
+        
+         .work .container .inner .navbar h2{
+            padding-left: 5%;
+         }
+
+         .work .container .inner .navbar a{
+            padding-right: 5%;
+         }
+
+         footer .container .inner .content,
+         footer .container .inner .info,
+         footer .container .inner .navbar{
+           width: 40%;
+           margin-bottom: 40px;
+
+        }
+
+       footer .container .link .info{
+           display: none;
+        }
+
+       footer .container .link .nav{
+           margin: 0 auto;
+
+        }
+    }
+
+        @media(max-width: 840px){
+
+            .input .container .inner .client{
+                display: none;
+            }
+
+            .input .container .inner .inputBox{
+                width: 70%;
+                margin: 0 auto;
+            }
+
+            footer .container .inner{
+              padding-left: 180px;
+
+            }
+
+            footer .container .inner .content,
+            footer .container .inner .info,
+            footer .container .inner .navbar{
+            width: 98%;
+            /* margin: 20px auto; */
+            
+        }
+
+    }
+
+    @media(max-width: 767px){
+
+        header  .container .inner .box .navbar a{
+            margin-left: 8px;
+            font-size: 13px;
+            text-align: center;
+            
+        }
+
+         header .container .inner .content{
+            text-align: center;
+        
+        }
+        header .container .inner .content h1{
+            font-size: 26px;
+
+        }
+
+        header .container .inner .content p{
+            font-size: 14px;
+            line-height: 20px;
+            
+        } 
+
+        .story .container .inner img{
+            display: none;
+        }
+
+        #expertise .container .inner  .wrapper .box{
+            padding: 30px 25px;
+            
+        }
+
+         #expertise .container .inner  .wrapper .box p{
+            font-size: 12px;
+            
+        }
+
+        #team .container .inner .box .content{
+            padding: 15px  30px;
+        }
+
+        .review .container .inner .content .image img{
+            display: none;
+        }
+
+        .work .image img{
+            width: 49%;
+            margin: 0 auto;
+            margin-bottom: 3px;
+        }
+
+        footer .container{
+            padding: 0 0;
+        }
+
+        footer .container .nav{
+            display: none;
+        }
+
+
+    } 
+
+           
+        
+
+
+        
+       
+
+
+      
+   
+         
+    
+       
+    
+        
+       
+          
+
+       
+
+
+
+      
+    
+
+
+     
+
+    
+
+
+
+
+
+
+
+
+
